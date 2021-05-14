@@ -1,0 +1,92 @@
+h1{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    font-size:40px;
+}
+
+.serifJPDiv{
+    width:512px;
+    margin:20px;
+    float:left;
+}
+
+.NotoSerifJP{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+.NotoSerifJPStd{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 24px;
+}
+
+.NotoSerifJPBold{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.NotoSerifJPIta{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 24px;
+    font-style: italic;   
+}
+
+.robotoDiv{
+    margin:20px;
+    width:400px;
+    float:left;
+}
+
+.Roboto{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+.RobotoStd{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+.RobotoBold{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.RobotoIta{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.sansKRDiv{
+    width:300px;
+    margin:20px;
+    float:left;
+}
+
+.NotoSansKR{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+.NotoSansKRStd{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 24px;
+}
+
+.NotoSansKRBold{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.NotoSansKRIta{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+}

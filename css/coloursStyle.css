@@ -1,0 +1,59 @@
+h1{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    font-size:40px;
+}
+
+.cyberpunkBlue{
+    width:300px;
+    padding:50px;
+    margin:20px;
+    float:left;
+    background-color:#00b8ff;
+    text-align:center;
+}
+
+.cyberpunkPink{
+    width:300px;
+    padding:50px;
+    margin:20px;
+    float:left;
+    background-color:#ff00ff;
+    text-align:center;
+}
+
+.cyberpunkGreen{
+    width:300px;
+    padding:50px;
+    margin:20px;
+    float:left;
+    background-color:#00ff9f;
+    text-align:center;
+}
+
+.cyberpunkPurple{
+    width:300px;
+    padding:50px;
+    margin:20px;
+    float:left;
+    background-color:#b700ff;
+    text-align:center;
+}
+
+.agumonYellow{
+    width:300px;
+    padding:50px;
+    margin:20px;
+    float:left;
+    background-color:#E4C14B;
+    text-align:center;
+}
+
+.fiestaRed{
+    width:300px;
+    padding:50px;
+    margin:20px;
+    float:left;
+    background-color:#DD1923;
+    text-align:center;
+}
