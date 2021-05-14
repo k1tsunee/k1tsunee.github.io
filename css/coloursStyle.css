@@ -1,59 +1,71 @@
-h1{
-    font-family: 'Noto Sans JP', sans-serif;
+h1 {
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size:40px;
+    font-size: 40px;
 }
 
-.cyberpunkBlue{
-    width:300px;
-    padding:50px;
-    margin:20px;
-    float:left;
-    background-color:#00b8ff;
-    text-align:center;
+h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 530;
+    font-size: 20px;
 }
 
-.cyberpunkPink{
-    width:300px;
-    padding:50px;
-    margin:20px;
-    float:left;
-    background-color:#ff00ff;
-    text-align:center;
+p {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: regular;
+    font-size: 14px;
 }
 
-.cyberpunkGreen{
-    width:300px;
-    padding:50px;
-    margin:20px;
-    float:left;
-    background-color:#00ff9f;
-    text-align:center;
+.cyberpunkBlue {
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+    float: left;
+    background-color: #00b8ff;
+    text-align: center;
 }
 
-.cyberpunkPurple{
-    width:300px;
-    padding:50px;
-    margin:20px;
-    float:left;
-    background-color:#b700ff;
-    text-align:center;
+.cyberpunkPink {
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+    float: left;
+    background-color: #ff00ff;
+    text-align: center;
 }
 
-.agumonYellow{
-    width:300px;
-    padding:50px;
-    margin:20px;
-    float:left;
-    background-color:#E4C14B;
-    text-align:center;
+.cyberpunkGreen {
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+    float: left;
+    background-color: #00ff9f;
+    text-align: center;
 }
 
-.fiestaRed{
-    width:300px;
-    padding:50px;
-    margin:20px;
-    float:left;
-    background-color:#DD1923;
-    text-align:center;
+.cyberpunkPurple {
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+    float: left;
+    background-color: #b700ff;
+    text-align: center;
+}
+
+.agumonYellow {
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+    float: left;
+    background-color: #E4C14B;
+    text-align: center;
+}
+
+.fiestaRed {
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+    float: left;
+    background-color: #DD1923;
+    text-align: center;
 }
