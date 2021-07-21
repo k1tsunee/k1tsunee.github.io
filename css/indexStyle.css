@@ -10,10 +10,21 @@ h2 {
     font-size: 20px;
 }
 
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+}
+
 p {
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: regular;
     font-size: 14px;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: gold;
 }
 
 .digimonHello {
@@ -66,4 +77,189 @@ li a:hover:not(.active) {
 
 .active {
     background-color: #0468aa;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0468aa;
+    color: white;
+    text-align: center;
+}
+
+.epilepsyButton{
+    display: block;
+    transition-duration: 0.4s;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red; 
+    color: white;
+    border: 0px; 
+    padding: 16px 32px;
+}
+
+.epilepsyButton:hover {
+    background-color: #E4C14B;
+    color: black;
+}
+
+@-webkit-keyframes color-change-5x {
+    0% {
+      background: #19dcea;
+    }
+    25% {
+      background: #b22cff;
+    }
+    50% {
+      background: #ea2222;
+    }
+    75% {
+      background: #f5be10;
+    }
+    100% {
+      background: #3bd80d;
+    }
+  }
+  @keyframes color-change-5x {
+    0% {
+      background: #19dcea;
+    }
+    25% {
+      background: #b22cff;
+    }
+    50% {
+      background: #ea2222;
+    }
+    75% {
+      background: #f5be10;
+    }
+    100% {
+      background: #3bd80d;
+    }
+  }
+
+  @-webkit-keyframes flip-horizontal-bottom {
+    0% {
+      -webkit-transform: rotateX(0);
+              transform: rotateX(0);
+    }
+    100% {
+      -webkit-transform: rotateX(-180deg);
+              transform: rotateX(-180deg);
+    }
+  }
+  @keyframes flip-horizontal-bottom {
+    0% {
+      -webkit-transform: rotateX(0);
+              transform: rotateX(0);
+    }
+    100% {
+      -webkit-transform: rotateX(-180deg);
+              transform: rotateX(-180deg);
+    }
+  }
+  
+  @-webkit-keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  
+.epilepsyDiv {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+	-webkit-animation: color-change-5x 70ms linear infinite alternate forwards;
+	        animation: color-change-5x 70ms linear infinite alternate forwards;
+}
+
+.formulario{
+  text-align: center;
+}
+
+.feedbacks {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+
+.feedbackP {
+  width: 300px;
+  padding: 50px;
+  margin: 20px;
+  float: left;
+  background-color: #00b8ff;
+  text-align: center;
+}
+
+#buttonSubmit{
+  display: block;
+  transition-duration: 0.4s;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #DD1923; 
+  color: white;
+  border: 0px; 
+  padding: 24px 48px;
+}
+
+#buttonSubmit:hover {
+  background-color: red;
+  color: white;
+}
+
+.funDiv{
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.tentomon {
+  width: 300px;
+  padding: 50px;
+  margin: 20px;
+}
+
+.cavalo {
+  width: 300px;
+  padding: 50px;
+  margin: 20px;
+}
+
+.cavalo:hover {
+  -webkit-animation: rotate-center 100ms ease-in-out infinite both;
+  animation: rotate-center 100ms ease-in-out infinite both;
+}
+
+.tentomon:hover {
+	-webkit-animation: flip-horizontal-bottom 1.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) 2 alternate both;
+	        animation: flip-horizontal-bottom 1.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) 2 alternate both;
+}
+
+.cavaloHeader {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }

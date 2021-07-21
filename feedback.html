@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title>Leave Feedback</title>
+        <link rel="stylesheet" href="css/feedbackStyle.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <script type="text/javascript" src="js/feedback.js"></script>
+        <script type="text/javascript" src="js/clock.js"></script>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Sans+KR:wght@400;700&family=Roboto:ital,wght@0,400;1,400;1,700&display=swap"
+            rel="stylesheet">
+    </head>
+
+    <ul class="navBarMain">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="colours.html">Colours</a></li>
+        <li><a href="fonts.html">Fonts</a></li>
+        <li><a href="styles.html">Text Styles</a></li>
+        <li><a href="feedback.html" class="active">Feedback</a></li>
+    </ul>
+
+    <body>
+        <form class="formulario">
+            <h2>Please, leave feedback!</h2>
+            <input type="text" id="name" placeholder="Your name" oninput="getName()">
+            <input type="email" id="email" placeholder="Your email" oninput="getEmail()"><br><br>
+            <textarea id="feedback" placeholder="Feedback..." rows="10" cols="48" oninput="getFeedback()"></textarea><br><br>
+        </form>
+        
+        <button id="buttonSubmit">Submit</button>
+
+        <div class="feedbacks"></div>
+    </body>
+
+    <div class="footer">
+        <p>
+            Made By: k1tsunee || <span id="data"></span>
+            || <a href="https://k1tsuneeplusplus.com/">Website</a>
+            || <a href="https://github.com/k1tsunee">Github</a>
+            || <a href="mailto: bndttipedro@gmail.com">Email</a>
+        </p>
+    </div>
+</html>

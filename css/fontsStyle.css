@@ -17,6 +17,12 @@ p {
     font-size: 14px;
 }
 
+a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: gold;
+  }
+
 .serifJPDiv {
     width: 512px;
     margin: 20px;
@@ -134,4 +140,14 @@ li a:hover:not(.active) {
 
 .active {
     background-color: #0468aa;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0468aa;
+    color: white;
+    text-align: center;
 }

@@ -2,7 +2,6 @@ h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 40px;
-    padding-top: 4%;
 }
 
 h2 {
@@ -16,6 +15,12 @@ p {
     font-weight: regular;
     font-size: 14px;
 }
+
+a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: gold;
+  }
 
 .cyberpunkBlue {
     width: 300px;
@@ -101,4 +106,42 @@ li a:hover:not(.active) {
 
 .active {
     background-color: #0468aa;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0468aa;
+    color: white;
+    text-align: center;
+}
+
+button{
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.botaoDiv{
+    padding-top: 3%;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #00ff9f;
+}
+  
+.button1:hover {
+    background-color: #00ff9f;
+    color: rgb(39, 39, 39);
 }

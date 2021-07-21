@@ -22,10 +22,6 @@ a {
     color: gold;
   }
 
-ul li::marker {
-    color: black;
-}
-
 .navBarMain {
     list-style-type: none;
     margin: 0;
@@ -37,11 +33,11 @@ ul li::marker {
     width: 100%;  
 }
 
-li.item {
+li {
     float: left;
 }
 
-li.item a {
+li a {
     font-family: 'Roboto', sans-serif;
     display: block;
     color: white;
@@ -50,7 +46,7 @@ li.item a {
     text-decoration: none;
 }
 
-li.item a:hover:not(.active) {
+li a:hover:not(.active) {
     background-color: #111;
 }
 
@@ -66,4 +62,42 @@ li.item a:hover:not(.active) {
     background-color: #0468aa;
     color: white;
     text-align: center;
+}
+
+.formulario{
+    padding-top: 2.5%;
+    text-align: center;
+}
+
+.feedbacks {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.feedbackP {
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+    float: left;
+    background-color: #00b8ff;
+    text-align: center;
+}
+
+#buttonSubmit{
+    display: block;
+    transition-duration: 0.4s;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #DD1923; 
+    color: white;
+    border: 0px; 
+    padding: 24px 48px;
+}
+
+#buttonSubmit:hover {
+    background-color: red;
+    color: white;
 }

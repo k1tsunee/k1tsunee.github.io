@@ -4,30 +4,67 @@
 <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="utf-8" http-equiv="encoding">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>k1tsunee's HTML Learning Place</title>
     <link rel="stylesheet" href="css/indexStyle.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Sans+KR:wght@400;700&family=Roboto:ital,wght@0,400;1,400;1,700&display=swap" rel="stylesheet">
+    <script type="text/javascript"  src="js/clock.js"></script>
+    <script type="text/javascript"  src="js/index.js"></script>
+    <script type="text/javascript"  src="js/feedback.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Sans+KR:wght@400;700&family=Roboto:ital,wght@0,400;1,400;1,700&display=swap"
+        rel="stylesheet">
 </head>
 
-<body>
-    <ul class="navBarMain">
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="colours.html">Colours</a></li>
-        <li><a href="fonts.html">Fonts</a></li>
-        <li><a href="styles.html">Text Styles</a></li>
-    </ul>
+<ul class="navBarMain">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="colours.html">Colours</a></li>
+    <li><a href="fonts.html">Fonts</a></li>
+    <li><a href="styles.html">Text Styles</a></li>
+    <li><a href="feedback.html">Feedback</a></li>
+</ul>
 
+<body>
     <h1 class="siteHeader">k1tsunee's HTML Learning Place</h1>
     <img class="digimonHello" src="images/digimonHome.jpg" usemap="#agumonLink">
     <p class="digimonSubtitle">Click on Agumon for the GitHub repo</p>
     <map name="agumonLink">
-        <area alt="GitHub Repo" title="GitHub Repo" href="https://github.com/k1tsunee/k1tsunee.github.io" coords="40,80,230,300" shape="rect">
+        <area alt="GitHub Repo" title="GitHub Repo" href="https://github.com/k1tsunee/k1tsunee.github.io"
+            coords="40,80,230,300" shape="rect">
     </map>
+    <button class="epilepsyButton">CAUTION! EPILEPSY WARNING!</button>
 
-    <a href="https://k1tsuneeplusplus.com/">Website</a>
-    <a href="https://github.com/k1tsunee">GitHub</a>
-    <a href="mailto: bndttipedro@gmail.com">Email</a>
+    <br>
+    <div class="epilepsyDiv"></div>
+    <br>
+
+    <div class="funDiv">
+        <img src="images/tentomon.jpg" class="tentomon">
+        <img src="images/cavalo.jpg" class="cavalo" onclick="cavalo()">
+    </div>
+
+    <h3 class="cavaloHeader"><span>Cavalo: </span> <span id="cavaloContador">0</span></h3>
+
+    <form class="formulario">
+        <h2>Please, leave feedback!</h2>
+        <input type="text" id="name" placeholder="Your name" oninput="getName()">
+        <input type="email" id="email" placeholder="Your email" oninput="getEmail()"><br><br>
+        <textarea id="feedback" placeholder="Feedback..." rows="10" cols="48" oninput="getFeedback()"></textarea><br><br>
+    </form>
+    
+    <button id="buttonSubmit">Submit</button>
+
+    <div class="feedbacks"></div>
+
 </body>
+
+<div class="footer">
+    <p>
+        Made By: k1tsunee || <span id="data"></span>
+        || <a href="https://k1tsuneeplusplus.com/">Website</a>
+        || <a href="https://github.com/k1tsunee">Github</a>
+        || <a href="mailto: bndttipedro@gmail.com">Email</a>
+    </p>
+</div>
 
 </html>
